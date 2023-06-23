@@ -1,0 +1,27 @@
+프로젝트 기본 경로
+	1)  src/main/java : 서버단 JAVA 파일
+	2) src/main/resources : 설정 파일 및 뷰단 
+	3)  src/main/resources/static : css, js, image 등의 경로
+	4) src/main/resources/templates : html 파일 경로
+	5)  src/main/resources/application.yml : 서버, 경로 및 DB, 설정 파일
+	6) src/test : 단위 테스트 JAVA 파일(jUnit, Assertions)
+	7) src/build.gragle : 
+
+
+스프링 어노테이션
+	1) @Data :  Lombok에서 제공하는 어노테이션으로, 클래스의 모든 필드에 대한 getter, setter, equals, hashCode, toString 등을 자동으로 생성해주는 기능을 제한 한다.
+
+	2) @Component :  객체를 쓸거니까 그 객체를 알아서 찾아와!라고 하는 것
+
+	3) @Slf4j : log 필드를 자동으로 생성해주며, 로그를 출력하는 코드를 작성할 때 log 필드를 사용할 수 있습니다.
+	
+	4) @RequiredArgsConstructor : @NonNull 어노테이션이 붙은 필드에 대한 생성자를 자동으로 생성해주는 기능을 제공합니다.
+
+	5) @Autowired 어노테이션은 스프링에서 사용하는 의존성 주입(Dependency Injection)을 위한 어노테이션 중 하나입니다.
+
+	6)JUnit은 자바에서 유닛 테스트를 수행하는 가장 대표적인 프레임워크로, 
+	  개발자가 작성한 코드의 기능을 테스트하고 검증하는 작업을 자동화할 수 있도록 도와줍니다.
+
+	7) @Qulifier 빈의 한정자로 작동하여, 빈의 이름이나 다른 특성을 기반으로 스프링에게 어떤 빈을 주입해야 하는지 알려줍니다.
+
+	8) @primary
